@@ -75,7 +75,7 @@
 
         <ul id="portal-siteactions">
             <li>
-                <a href="#">Acessibilidade</a>
+                <a href="/acessibilidade/">Acessibilidade</a>
             </li>
             <li>
                 <a href="#">Alto Contraste</a>
@@ -86,46 +86,54 @@
         </ul>
 
         <div id="logo-header-tema">
-            <a href="#" title="#">
-                <div id="portal-title">Salic</div>
-                <div id="portal-description">Sistema de Apoio às Leis de Incentivo à Cultura</div>
+            <a href="http://salic.cultura.gov.br/" title="Sistema de Apoio &agrave;s Leis de Incentivo &agrave; Cultura">
+                <div id="portal-title"><img src="/wp-content/uploads/sites/2/2016/08/LogoSalicHome.png"></div>
+                <div id="portal-description">SISTEMA DE APOIO &Agrave;S LEIS DE INCENTIVO &Agrave; CULTURA </div>
             </a>
 
         </div>
 
         <!-- Pesquisa  -->
 
-        <div id="social-icons">
-            <ul>
-                <li>
-                    <a href="#" title="Facebook">
-                        <img src="/wp-content/uploads/sites/2/2016/08/icone_facebook.png" alt="Facebook" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#" title="Twitter">
-                        <img src="/wp-content/uploads/sites/2/2016/08/icone_twitter.png" alt="Twitter" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#" title="Youtube">
-                        <img src="/wp-content/uploads/sites/2/2016/08/icone_youtube.png" alt="Youtube" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#" title="Flickr">
-                        <img src="/wp-content/uploads/sites/2/2016/08/icone_flickr.png" alt="Flickr" />
-                    </a>
-                </li>
-<li>
-                    <a href="#" title="Flickr">
-                        <img src="/wp-content/uploads/sites/2/2016/08/icone_rss.png" alt="RSS" />
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <div id="portal-searchbox" role="search">
+                <form role="search" method="get" class="" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<?php
+						printf( '<input type="search" class="et-search-field"  accesskey="3" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /> <input type="submit" value="Buscar" class="searchButton">',
+							esc_attr__( 'Search &hellip;', 'Divi' ),
+							get_search_query(),
+							esc_attr__( 'Search for:', 'Divi' )
+						);
+					?>
+					</form>
+            </div>
 
-    </div>
+
+        <div id="social-icons">
+                <ul>
+                    <li>
+                        <a href="#" title="Facebook">
+                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_facebook.png" alt="Facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Twitter">
+                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_twitter.png" alt="Twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Youtube">
+                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_youtube.png" alt="Youtube" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Flickr">
+                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_rss.png" alt="RSS" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
 
 </div>
 	<div id="page-container">
@@ -348,29 +356,11 @@
 					<?php if ( $et_slide_header || is_customize_preview() ) : ?>
 						<span class="mobile_menu_bar et_pb_header_toggle et_toggle_<?php echo esc_attr( et_get_option( 'header_style', 'left' ) ); ?>_menu"></span>
 					<?php endif; ?>
-
-					<?php if ( ( false !== et_get_option( 'show_search_icon', true ) && ! $et_slide_header ) || is_customize_preview() ) : ?>
-					<div id="et_top_search">
-						<span id="et_search_icon"></span>
-					</div>
-					<?php endif; // true === et_get_option( 'show_search_icon', false ) ?>
-
 					<?php do_action( 'et_header_top' ); ?>
 				</div> <!-- #et-top-navigation -->
 			</div> <!-- .container -->
 			<div class="et_search_outer">
-				<div class="container et_search_form_container">
-					<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<?php
-						printf( '<input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" />',
-							esc_attr__( 'Search &hellip;', 'Divi' ),
-							get_search_query(),
-							esc_attr__( 'Search for:', 'Divi' )
-						);
-					?>
-					</form>
-					<span class="et_close_search_field"></span>
-				</div>
+
 			</div>
 		</header> <!-- #main-header -->
 
