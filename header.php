@@ -39,25 +39,25 @@
 
         <ul id="accessibility">
             <li>
-                <a accesskey="1" href="#acontent" id="link-conteudo">
+                <a accesskey="1" href="#irparaomenu" id="link-conteudo">
                     Ir para o conte&uacute;do
                     <span>1</span>
                 </a>
             </li>
             <li>
-                <a accesskey="2" href="#anavigation" id="link-navegacao">
+                <a accesskey="2" href="#main-content" id="link-navegacao">
                     Ir para o menu
                     <span>2</span>
                 </a>
             </li>
             <li>
-                <a accesskey="3" href="#SearchableText" id="link-buscar">
+                <a accesskey="3" href="#portal-searchbox" id="link-buscar">
                     Ir para a busca
                     <span>3</span>
                 </a>
             </li>
             <li>
-                <a accesskey="4" href="#afooter" id="link-rodape">
+                <a accesskey="4" href="#main-footer" id="link-rodape">
                     Ir para o rodap&eacute;
                     <span>4</span>
                 </a>
@@ -305,7 +305,7 @@
 	<?php endif; // true ==== $et_slide_header ?>
 
 		<header id="main-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
-			<div class="container clearfix et_menu_container">
+			<!--<div class="container clearfix et_menu_container">
 			<?php
 				$logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && '' != $user_logo
 					? $user_logo
@@ -357,7 +357,7 @@
 						<span class="mobile_menu_bar et_pb_header_toggle et_toggle_<?php echo esc_attr( et_get_option( 'header_style', 'left' ) ); ?>_menu"></span>
 					<?php endif; ?>
 					<?php do_action( 'et_header_top' ); ?>
-				</div> <!-- #et-top-navigation -->
+				</div>--> <!-- #et-top-navigation -->
 			</div> <!-- .container -->
 			<div class="et_search_outer">
 
