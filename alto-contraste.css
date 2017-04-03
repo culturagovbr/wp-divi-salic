@@ -111,3 +111,24 @@ body.contraste li.current_page_item a {
     filter: grayscale(100%);
     filter: gray;
 }
+.contraste .et_pb_fullwidth_menu.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_dropdown_animation_fade.et_pb_fullwidth_menu_0 {
+    background: #383838 !important;
+}
+.contraste header#main-header {
+    background: #000;
+    border-bottom: none !important;
+}
+.contraste  ul#menu-menu-principal {
+    background: #383838 !important;
+}
+.contraste .oqueeleirouanet {
+    background: #000;
+}
+.contraste img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
