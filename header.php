@@ -87,7 +87,7 @@
 
         <div id="logo-header-tema">
             <a href="http://salic.cultura.gov.br/" title="Sistema de Apoio &agrave;s Leis de Incentivo &agrave; Cultura">
-                <div id="portal-title">Rouanet </div>
+                <div id="portal-title">Lei Rouanet </div>
                 <div id="portal-description" style="color:#FFF">SISTEMA DE APOIO &Agrave;S LEIS DE INCENTIVO &Agrave; CULTURA </div>
             </a>
 
