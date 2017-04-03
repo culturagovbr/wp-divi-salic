@@ -633,13 +633,14 @@ input.searchField { -moz-appearance: none; }
 }
 
 .oqueadenovo .lista-oqueadenovo li {
-  display: block;
-  list-style: none;
-  width: 50%;
-  line-height: 18px;
-  font-size: 17px;
-  margin-top: 23px;
-  margin-bottom: 10px;
+    display: block;
+    list-style: none;
+    width: 53%;
+    line-height: 18px;
+    font-size: 17px;
+    margin-top: 23px;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
 
 .oqueadenovo .lista-oqueadenovo img {
@@ -649,15 +650,7 @@ input.searchField { -moz-appearance: none; }
   margin-top: -7px;
 }
 
-.oqueadenovo .lista-oqueadenovo li {
-  display: block;
-  list-style: none;
-  width: 53%;
-  line-height: 18px;
-  font-size: 17px;
-  margin-top: 23px;
-  margin-bottom: 10px;
-}
+
 
 #header {
   background-image: radial-gradient(ellipse at center, #35839f 1%, #35839f 100%);
@@ -953,6 +946,9 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 }
 
 @media (max-width: 798px){
+  ul#mobile_menu1 {
+    background: #2a6b81 !important;
+}
   #portal-siteactions {
     display: block;
     float: right;
