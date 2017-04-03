@@ -78,7 +78,7 @@
                 <a href="/acessibilidade/">Acessibilidade</a>
             </li>
             <li>
-                <a href="#">Alto Contraste</a>
+                <a href="#">Alto Contrastes</a>
             </li>
             <li>
                 <a href="#">Mapa do Site</a>

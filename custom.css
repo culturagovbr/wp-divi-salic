@@ -1,0 +1,937 @@
+#header {
+    padding: 14px 0 0 0;
+    background-color: #19882c;
+    height: 230px;
+    /* Old browsers */
+    background-color: #0A5517;
+    background-image: -moz-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
+    /* FF3.6+ */
+    background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#19882c), color-stop(100%, #025310));
+    /* Chrome,Safari4+ */
+    background-image: -webkit-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
+    /* Chrome10+,Safari5.1+ */
+    background-image: -o-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
+    /* Opera 12+ */
+    background-image: -ms-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
+    /* IE10+ */
+    background-image: radial-gradient(ellipse at center, #19882c 1%, #025310 100%);
+    color: #fff;
+    /* IE6-9 fallback on horizontal gradient */
+    filter:progid: DXImageTransform.Microsoft.gradient( startColorstr="#19882c", endColorstr="#025310",GradientType=1);
+}
+
+
+
+
+/* Menu de Acessibilidade
+   ========================================================================== */
+
+#accessibility {
+
+}
+
+#accessibility a {
+    color: #fff;
+}
+
+#accessibility li {
+    display: inline;
+}
+
+#accessibility span {
+    background: url("../img/bg-acess-key.gif") center center no-repeat;
+    color: #006600;
+}
+
+/* Titulo do portal
+   ========================================================================== */
+
+#portal-logo,
+#portal-title { color: #fff !important; }
+
+/* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
+   ========================================================================== */
+
+#portal-siteactions,
+#portal-language { border-bottom: 1px dotted #9bc2a3; }
+
+#portal-siteactions a,
+#portal-siteactions a:hover,
+#portal-language a,
+#portal-language a:hover { color: #fff !important; }
+
+/* Menu sobre o portal
+   ========================================================================== */
+
+#sobre { background: #00420c; }
+
+#sobre a { color: #fff; }
+
+#sobre .portalservicos-item a { border-right: 1px solid #6c9072; }
+
+/* Formulário de busca
+   ========================================================================== */
+
+#portal-searchbox { border: 1px solid #CCCCCC; }
+
+
+/* ==========================================================================
+   Sprinte Icons
+   ========================================================================== */
+
+/* icones de redes sociais */
+#social-icons a,
+    /* central de conteudo */
+.item-central .link-videos,
+.item-central .link-audios,
+.item-central .link-infograficos,
+.item-central .link-publicacoes,
+.item-central .link-fotos,
+.item-central .link-aplicativos,
+.item-central .link-dadosabertos,
+    /* icone do botão de busca */
+/*#header input.searchButton { background-image: url("../img/sprite.png"); */}
+/* icone do botão de relatar erros */
+#content .relatar-erros a { background: url("../img/icon-reportar-erros.png") no-repeat; }
+
+#header > div {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width:1060px;
+}
+
+
+#accessibility {
+    display: block !important;
+    float: left;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#accessibility a {
+    margin-right: 8px;
+}
+
+#accessibility span {
+    padding: 0 4px;
+}
+
+/* Titulo do portal
+   ========================================================================== */
+
+#logo-header-tema {
+    float: left;
+    padding: 0;
+    width: 70%;
+}
+
+#logo {
+    display: none;
+}
+
+#logo-header-tema span {
+    position: absolute;
+    display: block;
+    line-height: 0em;
+}
+
+#portal-logo {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+#portal-title {
+    margin: 0;
+    margin: 36px 0 -6px;
+    color: #fff;
+    font-size: 5.35em;
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+
+#logo-header-tema .logo {
+    margin-bottom: 0.2em;
+    font-size: 3em !important;
+    line-height: 1.1em;
+}
+
+#portal-title-1 { top: 30px; }
+
+#portal-description {
+    bottom: 8px;
+    text-transform: nome;
+    font-size: 1.2em;
+}
+
+/*
+ * Personal Tools - Menu de administração
+ */
+
+#portal-personaltools {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    float: left;
+    font-size: 1.2em;
+}
+
+/* Menu de idioma
+   ========================================================================== */
+
+#language {
+    float: right;
+    margin-left: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted #9bc2a3;
+    font-size: 0.93em;
+}
+
+#language li { display: inline; }
+
+#language a {
+    padding: 4px 0 4px 10px;
+    color: #d9ffe3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#language a:hover { color: #fff !important; }
+
+#language .language-en {
+    margin-right: 0.5em;
+}
+
+#language .language-en a {
+    padding-left: 0;
+}
+
+/* Menu site actions - Acessibilidade, Alto Contraste, Mapa do site
+   ========================================================================== */
+
+#portal-siteactions {
+    display: block;
+    float: right;
+    clear: none;
+    padding-bottom: 2px;
+}
+
+#portal-siteactions li { display: inline; }
+
+#portal-siteactions a {
+    padding: 4px 0 4px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+#siteaction-accessibility a { padding-left: 0; }
+
+#portal-siteactions .last-item { margin-right: 0; }
+
+/* Links de redes sociais
+   ========================================================================== */
+
+#social-icons {
+    float: right;
+    clear: right;
+    margin: 1.167em 0;
+}
+
+#social-icons ul { display: table-row; }
+#social-icons li { display: table-cell; }
+
+#social-icons li a {
+    border: none;
+    padding: 0 0 0 5px;
+}
+
+/* Menu sobre o portal
+   ========================================================================== */
+
+#sobre {
+    clear: both;
+    margin: 0;
+    padding: 5px 0;
+    max-width: 100% !important;
+    line-height: 20px;
+}
+
+#sobre ul {
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: right;
+}
+
+#sobre .portalservicos-item a { padding: 0 10px; }
+
+#sobre .last-item a {
+    padding: 0 0 0 10px;
+    border-right: none !important;
+}
+
+/* Formulário de busca
+   ========================================================================== */
+
+.LSBox {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+input.searchField { -moz-appearance: none; }
+
+#portal-searchbox {
+    float: right;
+    clear: right !important;
+    margin: 3.12em 0 0 0;
+    padding: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: right;
+    font-size: 80%;
+}
+
+#portal-searchbox .searchField {
+    padding: 0.3em 0.35em;
+    width: 186px;
+    border: none;
+    border-right: none;
+    font-size: 1.2em;
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+}
+
+#searchGadget,
+#header input.searchButton {
+    padding: 0.3em;
+    padding: 4px 15px;
+    border: none;
+    background: transparent;
+    text-indent: -2000px;
+}
+
+#header input.searchButton {
+    background: url("../img/search-button.gif") no-repeat 3px 2px #FFFFFF;
+}
+
+#LSResult {
+    z-index: 1;
+    margin-top: 0.5%;
+}
+
+
+
+
+/* Barra Servicos */
+
+#main-header {   
+    background-color: #00420c;
+}
+
+#top-menu a {
+color: #FFFFFF;
+}
+
+/* Footer do Rodapé */
+#footer-widgets .footer-widget li a {   
+   /* padding: 0px 0.83em; */
+    overflow: hidden;
+    margin: 0.83em 0px 1.66em;     
+}
+
+.menu-menu-rodape-container {
+      border-left: 1px dotted rgb(125, 196, 138);
+       padding: 0px 0.3em 0 0.3em;
+}
+
+
+#footer-widgets > div {
+    margin: 2em auto;
+    padding-top: 1em;
+    max-width: 960px;
+}
+
+#footer-widgets > div {
+    margin: 2em auto;
+    padding-top: 1em;
+    max-width: 960px;
+}
+
+#footer-widgets .footer-widget li:before {
+    border-style: none;
+}
+
+#footer-widgets .footer-logos {
+    margin: 0 0 -20px;
+    padding: 2em 0;
+    max-width: 100%;
+    background: #00420c;
+}
+
+.footer-logos > div {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/* hack */
+.et_pb_gutters3.et_pb_footer_columns4 .footer-widget {
+   width: 25%;
+}
+
+
+#footer-widgets .logo-brasil img { float: right; }
+
+#extra-footer-widgets p {
+    margin: 1em auto;
+    max-width: 960px;
+}
+
+ul {
+ list-style-type:none
+ } 
+
+/* Rodapé Fonte do Titulo */
+#main-footer .footer-widget h4 {
+    color: #7dc48a;
+    font-size: 22px;    
+}
+
+/* Input do Pesquisar */
+
+.et-search-form input {
+    position: absolute;
+    top: 10px;
+    right: 32px;
+    bottom: 11px;
+    width: 199px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    color: #333;
+    background: #f9f9f9;
+    float: left;
+    display: block;
+    margin-right: 4.34783%;   
+    display: block;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    border-top: 2px solid #d5d5d5;
+    border-bottom: 0;
+    border-left: 2px solid #d5d5d5;
+    border-right: 0;
+    box-shadow: inset -2px -2px 5px -1px #f0f2f1;
+    font-size: 0.8125em;
+    
+    padding: 0.3em 0.35em;
+    width: 186px;
+    border: none;
+    border-right: none;
+    font-size: 1.2em;
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+}
+
+/* CSS da busca */
+
+.widget_search input#s, .widget_search input#searchsubmit {
+    height: 40px !important;
+    margin: 0;
+    padding: -1.3em;
+    border: 1px solid #00420c;
+    color: #666;
+    font-size: 12px; 
+    /* line-height: normal !important; */
+}
+
+dl.nav-tree dt {
+    background: #f0f2f1;
+    border-bottom: 1px solid #d5d5d5;
+    color: #606060;
+    cursor: pointer;
+    margin: 0;
+    padding: 15px 10px;
+    text-transform: capitalize;
+    font-family: "open_sansbold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/* MENU BARRA HORIZONTAL */
+
+
+.fullwidth-menu li li a {
+    width: 500px;
+    padding: 6px 20px;
+}
+
+
+
+.nav li ul {
+    visibility: hidden;
+    z-index: 9999;
+    width: 459px;
+    border-top: 3px solid #2ea3f2;
+    opacity: 0;
+    background: #00420c;
+}
+
+
+
+/* OCULTAR INFOR DO RODAPE */
+
+#footer-info {
+    float: left;
+    padding-bottom: 10px;
+    color: #666;
+    text-align: left;
+    display: none;
+}
+
+
+/* MENU PRINCIPAL */ 
+
+.wpb_category_n_menu_accordion > ul > li:not(:last-child) > a {
+    border-bottom: 1px solid #fefffe!important;
+}
+
+.wpb_category_n_menu_accordion > ul > li > a {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 14px 22px;
+    background: #00420c;
+    color: #f5f5f5!important;
+}
+
+.et_color_scheme_green #top-menu li.current-menu-item > a {
+    color: #999;
+}
+
+
+#accessibility span {
+    padding: 0 3px;
+    background: #00420C;
+    color: #fff;
+}
+
+ /* NOVA COLOCACAO */ 
+
+/* icones de redes sociais */
+#social-icons a,
+/* central de conteudo */
+.item-central .link-videos,
+.item-central .link-audios,
+.item-central .link-infograficos,
+.item-central .link-publicacoes,
+.item-central .link-fotos,
+.item-central .link-aplicativos,
+.item-central .link-dadosabertos,
+
+#social-icons a, .item-central .link-videos, .item-central .link-audios, .item-central .link-infograficos, .item-central .link-publicacoes, .item-central .link-fotos, .item-central .link-aplicativos, .item-central .link-dadosabertos, #header input.searchButton {
+   /* background-image: url("/wp-content/uploads/sites/2/2016/08/sprite.png"); */
+}
+#header input.searchButton {
+    background-position: 0px 2px;
+    padding-right: 5px;
+}
+#searchGadget, #header input.searchButton {
+    padding: 0.3em;
+    padding: 4px 15px;
+    border: none;
+    background: transparent;
+    text-indent: -2000px;
+}
+#searchGadget, .LSBox input.searchButton {
+}
+
+
+
+/* Formulário de busca
+   ========================================================================== */
+
+.LSBox {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+input.searchField { -moz-appearance: none; }
+
+#portal-searchbox {
+    float: right;
+    clear: right;
+    margin: 3.12em 0 0 0;
+    padding: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: right;
+    font-size: 80%;
+}
+
+#portal-searchbox .searchField {
+    padding: 0.3em 0.35em;
+    width: 186px;
+    border: none;
+    border-right: none;
+    font-size: 1.2em;
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+}
+
+#searchGadget,
+#header input.searchButton {
+    padding: 0.3em;
+    padding: 4px 15px;
+    border: none;
+    background: transparent;
+    text-indent: -2000px;
+}
+
+#header input.searchButton {
+    background: url("/wp-content/uploads/sites/2/2016/08/search-button.gif") no-repeat 3px 2px #FFFFFF;
+}
+
+#LSResult {
+    z-index: 1;
+    margin-top: 0.5%;
+}
+
+
+
+/* MENU PRINCIPAL DA INTRANET */ 
+
+/*rouanet 31-03-2017*/
+.oqueadenovo .header-content-container.center {
+  background: #fff;
+  padding-top: 40px;
+  border-radius: 12px;
+  margin-bottom: 43px;
+}
+
+.oqueadenovo img {
+  float: right;
+}
+
+.oqueadenovo h1 {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.oqueadenovo .lista-oqueadenovo li {
+  display: block;
+  list-style: none;
+  width: 50%;
+  line-height: 18px;
+  font-size: 17px;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
+
+.oqueadenovo .lista-oqueadenovo img {
+  float: left;
+  display: block;
+  margin-right: 12px;
+  margin-top: -7px;
+}
+
+.oqueadenovo .lista-oqueadenovo li {
+  display: block;
+  list-style: none;
+  width: 53%;
+  line-height: 18px;
+  font-size: 17px;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
+
+#header {
+  background-image: radial-gradient(ellipse at center, #35839f 1%, #35839f 100%);
+  color: #fff;
+}
+
+.et_pb_fullwidth_menu.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_dropdown_animation_fade.et_pb_fullwidth_menu_0 {
+  background: #2a6b81 !important;
+}
+
+ul#menu-menu-principal {
+  background: #2a6b81 !important;
+}
+
+#accessibility span {
+  padding: 0 3px;
+  background: #2a6b81;
+  color: #fff;
+}
+
+
+/*Ajsutes - 10/02/2017*/
+
+.container.clearfix.et_menu_container {
+  max-width: 1072px;
+}
+
+.banner-home {
+  display: block;
+  width: 100%;
+  padding-bottom: 35px;
+  border-radius: 16px;
+  min-height: 133px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-top: -23px;
+  min-width: 100px;
+}
+
+h4.widgettitle {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 13px;
+  font-size: 24px;
+  margin-left: -31px;
+  padding-left: 30px;
+  display: block;
+  border-bottom: 1px #2f678a solid;
+}
+
+.banner-home:hover {
+  padding: 0.7em;
+}
+
+.banner-lateral {
+  width: 109%;
+  margin-left: 0;
+  margin-right: 0;
+  display: block !important;
+  position: relative;
+  border-radius: 13px;
+  margin-bottom: -28px !important;
+  top: -73px;
+}
+
+#main-content > .container {
+  max-width: 1073px;
+}
+
+.home #main-content .entry-content {
+  max-width: 1349px;
+  margin: -35px auto;
+}
+
+.et_header_style_left #et-top-navigation,
+.et_header_style_split #et-top-navigation {
+  padding-top: 10px;
+}
+
+#top-menu a {
+  color: #FFFFFF;
+  padding-bottom: 20px !important;
+}
+
+.et_header_style_left #et-top-navigation,
+.et_header_style_split #et-top-navigation {
+  padding-top: 21px;
+}
+
+#social-icons li a {
+  border: none;
+  padding: 0 0 0 5px;
+  background-image: none;
+}
+
+#portal-searchbox input.et-search-field {
+  border: 0 none;
+  padding-left: 10px;
+  padding-right: 70px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.et_pb_more_button {
+  display: inline-block;
+  margin-top: 20px;
+  color: inherit;
+  text-shadow: none;
+  text-decoration: none;
+  bottom: -117px;
+  position: absolute;
+  right: 0px !important;
+}
+
+#top-menu > li:last-child {
+  background-image: url(/wp-content/themes/wp-divi-intranet/img/relogio-ponto.svg);
+  background-repeat: no-repeat;
+  background-position: 3px 9px;
+  position: relative;
+  padding-top: 14px;
+  padding-left: 29px;
+  background-color: #1866b2;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  left: -6px;
+  height: 41px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #1d2c63;
+}
+
+#social-icons img {
+  opacity: 0;
+}
+
+#social-icons li a {
+    border: none;
+    padding: 0;
+    background-image: none;
+    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/sprite.png);
+    background-color: #fff;
+    margin-left: 11px;
+    display: block;
+    height: 20px;
+}
+
+.thumb-video a {
+  height: 54px;
+  margin-top: 6px;
+  overflow: hidden;
+  display: block;
+}
+
+.thumb-video a img {
+  display: block;
+  margin-top: -23px;
+  width: 100%;
+}
+
+#social-icons li a[title="Facebook"] {
+  background-position: -80px -25px;
+}
+
+#social-icons li a[title="Twitter"] {
+  background-position: -155px -25px;
+}
+
+#social-icons li a[title="Youtube"] {
+  background-position: -130px -25px;
+}
+
+#social-icons li a[title="Googleplus"] {
+  background-position: -105px -25px;
+}
+
+#social-icons li a[title="Flickr"] {
+  background-position: -105px -25px
+}
+
+#social-icons li a[title="Slideshare"] {
+  background-position: 45px 0;
+}
+
+#social-icons li a[title="Soundcloud"] {
+  background-position: 20px 0;
+}
+
+#social-icons li a[title="Rss"] {
+  background-position: 145px -25px;
+}
+
+#social-icons li a[title="Instagram"] {
+  background-position: 0;
+  background-image: url(http://intranet.base-wp.cultura.gov.br/wp-content/themes/wp-divi-intranet/img/instagram-logo.png);
+  background-size: 108%;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  height: 22px;
+}
+
+#social-icons li a[title="Tumblr"] {
+  background-position: 96px -49px;
+}
+
+form.wpcf7-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+  padding: 10px;
+  display: block;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+form.wpcf7-form textarea {
+  display: block;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+form.wpcf7-form label {
+  display: block;
+}
+
+form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
+  background: #0275d8;
+  padding: 14px;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+}
+
+.et_pb_column_3_4 .et_pb_row_inner {
+  padding: 30px 0 0;
+}
+
+#menu-menu-principal > li:last-child {
+  background-image: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
+  background-repeat: no-repeat;
+  background-position: 3px 2px;
+  position: relative;
+  padding-top: 14px;
+  padding-left: 53px;
+  background-color: #35839f;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  left: 4px;
+  height: 41px;
+  border-radius: 4px;
+  top: -10px;
+  float: right;
+  box-shadow: 1px 1px 1px #1d2c63;
+}
+#header input.searchButton {
+    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/search-icon.png) no-repeat 3px 2px #FFFFFF;
+}
+#header > div {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 28px;
+    max-width: 1060px;
+}
+#menu-menu-principal > li:last-child {
+    background-image: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+    position: relative;
+    padding-top: 14px;
+    padding-left: 41px;
+    background-size: 27px;
+    background-color: #35839f;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    left: 4px;
+    height: 41px;
+    border-radius: 4px;
+    top: -10px;
+    float: right;
+    box-shadow: 1px 1px 1px #1d2c63;
+}
+#footer-widgets .footer-widget li {
+    position: relative;
+    padding-left: 0;
+}
+.home #main-content .entry-content {
+    max-width: 100%;
+    margin: -35px auto;
+}
