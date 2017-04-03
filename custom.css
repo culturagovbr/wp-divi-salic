@@ -951,3 +951,74 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     max-width: 100%;
     margin: -35px auto;
 }
+
+@media (max-width: 798px){
+  #portal-siteactions {
+    display: block;
+    float: right;
+    clear: none;
+    padding-bottom: 2px;
+    display: none;
+}
+#accessibility {
+    display: block !important;
+    float: left;
+    font-size: 0.8em;
+    display: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#portal-searchbox {
+    position: absolute;
+    right: 28px;
+    top: 20px;
+    display: none;
+}
+ #portal-title {
+    margin: 0;
+    margin: 36px 0 -6px;
+    color: #fff;
+    font-size: 3.35em;
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+#header {
+    background-image: radial-gradient(ellipse at center, #35839f 1%, #35839f 100%);
+    color: #fff;
+    height: 178px;
+}
+}
+
+@media (max-width: 900px){
+  #portal-siteactions {
+    display: block;
+    float: right;
+    clear: none;
+    padding-bottom: 2px;
+    display: none;
+}
+#accessibility {
+    display: block !important;
+    float: left;
+    font-size: 0.8em;
+    display: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#portal-searchbox {
+    position: absolute;
+    right: 28px;
+    top: 20px;
+}
+ #portal-title {
+    margin: 0;
+    margin: 36px 0 -6px;
+    color: #fff;
+    font-size: 3.35em;
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+#header {
+    background-image: radial-gradient(ellipse at center, #35839f 1%, #35839f 100%);
+    color: #fff;
+    height: 178px;
+}
+}
