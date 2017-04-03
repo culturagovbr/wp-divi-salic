@@ -607,6 +607,13 @@ input.searchField { -moz-appearance: none; }
     padding: 60px;
     padding-top: 60px;
     padding-bottom: 87px;
+    border-radius: 12px;
+}
+.conheca {
+    color: #482d8d;
+}
+.conheca a{
+    color: #482d8d;
 }
 
 .oqueadenovo .header-content-container.center {

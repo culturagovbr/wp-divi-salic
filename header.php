@@ -112,23 +112,28 @@
         <div id="social-icons">
                 <ul>
                     <li>
-                        <a href="#" title="Facebook">
+                        <a href="https://www.facebook.com/MinisterioDaCultura/?fref=ts" title="Facebook" target="_blank">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_facebook.png" alt="Facebook" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Twitter">
+                        <a href="https://twitter.com/culturagovbr" title="Twitter"   target="_blank">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_twitter.png" alt="Twitter" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Youtube">
+                        <a href="https://www.youtube.com/user/ministeriodacultura" title="Youtube"  target="_blank">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_youtube.png" alt="Youtube" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Flickr">
+                        <a href="https://www.flickr.com/photos/ministeriodacultura/" title="Flickr" target="_blank">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_rss.png" alt="RSS" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/culturagovbr/" title="Instagram" target="_blank">
+                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_rss.png" alt="Instagram"  />
                         </a>
                     </li>
                 </ul>
