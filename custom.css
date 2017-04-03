@@ -602,6 +602,13 @@ input.searchField { -moz-appearance: none; }
 /* MENU PRINCIPAL DA INTRANET */ 
 
 /*rouanet 31-03-2017*/
+.oqueeleirouanet {
+    background: #fff;
+    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 87px;
+}
+
 .oqueadenovo .header-content-container.center {
   background: #fff;
   padding-top: 40px;
@@ -657,7 +664,9 @@ input.searchField { -moz-appearance: none; }
 ul#menu-menu-principal {
   background: #2a6b81 !important;
 }
-
+ul#menu-menu-principal li a {
+    color: #fff;
+}
 #accessibility span {
   padding: 0 3px;
   background: #2a6b81;
