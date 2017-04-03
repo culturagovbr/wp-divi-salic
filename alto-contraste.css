@@ -147,10 +147,7 @@ color:#fff;
  .contraste .et_pb_section_4.et_pb_section {
     background-color: #c6c6c6 !important;
 }
-.contraste .post-7 p {
-    background: #c6c6c6 !important;
-    color: black !important;
-}
+
 
 .contraste .et_pb_section_1.et_pb_section {
     -webkit-filter: grayscale(100%);
@@ -159,4 +156,7 @@ color:#fff;
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
     filter: gray;
+}
+.contraste img {
+    filter: none;
 }
