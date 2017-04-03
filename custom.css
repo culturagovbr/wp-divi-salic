@@ -852,7 +852,7 @@ h4.widgettitle {
 
 #social-icons li a[title="Instagram"] {
   background-position: 0;
-  background-image: url(http://intranet.base-wp.cultura.gov.br/wp-content/themes/wp-divi-intranet/img/instagram-logo.png);
+  background-image: url("img/instagram-logo.png");
   background-size: 108%;
   border-radius: 5px;
   border: 1px solid #fff;
