@@ -950,6 +950,29 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     margin: -35px auto;
 }
 
+@media (max-width: 500px){
+
+#social-icons {
+    display: none;
+}
+#portal-title {
+    margin: 0;
+    margin: 36px 0 -6px;
+    color: #fff;
+    font-size: 2.35em;
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+#portal-description {
+    bottom: 8px;
+    text-transform: nome;
+    font-size: 0.9em;
+    line-height: 17px;
+    margin-top: 11px;
+}
+}
+
+
 @media (max-width: 798px){
   ul#mobile_menu1 {
     background: #2a6b81 !important;
@@ -992,9 +1015,7 @@ div#portal-searchbox {
     padding: 0;
     width: 100%;
 }
-#social-icons {
-    display: none;
-}
+
 }
 
 @media (max-width: 900px){
