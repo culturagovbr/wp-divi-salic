@@ -1038,3 +1038,12 @@ div#portal-searchbox {
     color: #8dd6f7;
     font-size: 22px;
 }
+.et-social-icon a {
+    display: inline-block;
+    position: relative;
+    color: #6cb5d6;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 300ms ease 0s;
+}
