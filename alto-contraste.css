@@ -191,6 +191,13 @@ color:#fff;
     filter: grayscale(100%);
     filter: gray;
 }
+.contraste .et_pb_slide.et_pb_slide_with_image.et_pb_bg_layout_light.et_pb_media_alignment_center.et_pb_slide_0.et-pb-active-slide {
+    background: black !important;
+    color: #fff !important;
+}
+.contraste .et_pb_slide_content p {
+    color: #fff !important;
+}
 .contraste .et_pb_section_2.et_pb_section {
     background-color: #933d94 !important;
     -moz-filter: grayscale(100%);
