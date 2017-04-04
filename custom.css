@@ -651,7 +651,12 @@ input.searchField { -moz-appearance: none; }
 }
 
 
-
+.et_pb_row {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
 #header {
   background-image: radial-gradient(ellipse at center, #35839f 1%, #35839f 100%);
   color: #fff;
