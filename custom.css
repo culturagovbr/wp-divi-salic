@@ -951,7 +951,9 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 }
 
 
-
+.entry-content .et_pb_section_4.et_pb_section {
+    background-color: #f6eb05 !important;
+}
 
 
 
