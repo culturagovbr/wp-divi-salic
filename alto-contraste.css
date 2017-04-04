@@ -163,7 +163,6 @@ color:#fff;
     box-shadow: 1px 1px 1px #000;
 }
 .contraste #header input.searchButton {
-    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/search-icon.png) no-repeat 3px 2px #FFFFFF;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -172,14 +171,6 @@ color:#fff;
     filter: gray;
 }
 .contraste #social-icons li a {
-    border: none;
-    padding: 0;
-    background-image: none;
-    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/sprite.png);
-    background-color: #fff;
-    margin-left: 11px;
-    display: block;
-    height: 20px;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
