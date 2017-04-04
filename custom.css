@@ -987,6 +987,14 @@ div#portal-searchbox {
     color: #fff;
     height: 178px;
 }
+#logo-header-tema {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+#social-icons {
+    display: none;
+}
 }
 
 @media (max-width: 900px){
