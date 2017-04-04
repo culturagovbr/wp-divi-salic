@@ -158,3 +158,56 @@ color:#fff;
 .contraste img {
     filter: none;
 }
+.contraste #menu-menu-principal > li:last-child {
+    background-color: rgba(0, 0, 0, 0.42);
+    box-shadow: 1px 1px 1px #000;
+}
+.contraste #header input.searchButton {
+    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/search-icon.png) no-repeat 3px 2px #FFFFFF;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.contraste #social-icons li a {
+    border: none;
+    padding: 0;
+    background-image: none;
+    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/sprite.png);
+    background-color: #fff;
+    margin-left: 11px;
+    display: block;
+    height: 20px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.contraste .et_pb_fullwidth_header {
+    position: relative;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.contraste .et_pb_section_2.et_pb_section {
+    background-color: #933d94 !important;
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.contraste .entry-content .et_pb_section_4.et_pb_section {
+    background-color: #ffffff !important;
+}
