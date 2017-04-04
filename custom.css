@@ -1031,3 +1031,10 @@ div#portal-searchbox {
     margin-right: auto;
     margin-left: auto;
 }
+#main-footer {
+    background-color: #482d8d;
+}
+#main-footer .footer-widget h4 {
+    color: #8dd6f7;
+    font-size: 22px;
+}
