@@ -955,7 +955,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 
 
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
   #portal-siteactions {
     display: block;
     float: right;
@@ -1037,9 +1037,9 @@ div#portal-searchbox {
     top: 20px;
     display: none;
 }
- #portal-title {
+#portal-title {
     margin: 0;
-    margin: 36px 0 -6px;
+    margin: 24px 0 -6px;
     color: #fff;
     font-size: 3.35em;
     font-family: "open_sansbold", Arial, Helvetica, sans-serif;
@@ -1054,6 +1054,11 @@ div#portal-searchbox {
     float: left;
     padding: 0;
     width: 100%;
+}
+#social-icons {
+    float: right;
+    clear: right;
+    margin: -4.833em 0;
 }
 
 }
