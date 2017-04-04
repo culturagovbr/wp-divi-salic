@@ -950,73 +950,10 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     margin: -35px auto;
 }
 
-@media (max-width: 500px){
-
-#social-icons {
-    display: none;
-}
-#portal-title {
-    margin: 0;
-    margin: 36px 0 -6px;
-    color: #fff;
-    font-size: 2.35em;
-    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
-    line-height: 1em;
-}
-#portal-description {
-    bottom: 8px;
-    text-transform: nome;
-    font-size: 0.9em;
-    line-height: 17px;
-    margin-top: 11px;
-}
-}
 
 
-@media (max-width: 798px){
-  ul#mobile_menu1 {
-    background: #2a6b81 !important;
-}
-  #portal-siteactions {
-    display: block;
-    float: right;
-    clear: none;
-    padding-bottom: 2px;
-    display: none;
-}
-#accessibility {
-    display: block !important;
-    float: left;
-    font-size: 0.8em;
-    display: none !important;
-    font-family: Arial, Helvetica, sans-serif;
-}
-div#portal-searchbox {
-    position: absolute;
-    right: 28px;
-    top: 20px;
-    display: none;
-}
- #portal-title {
-    margin: 0;
-    margin: 36px 0 -6px;
-    color: #fff;
-    font-size: 3.35em;
-    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
-    line-height: 1em;
-}
-#header {
-    background-image: radial-gradient(ellipse at center, #35839f 1%, #35839f 100%);
-    color: #fff;
-    height: 178px;
-}
-#logo-header-tema {
-    float: left;
-    padding: 0;
-    width: 100%;
-}
 
-}
+
 
 @media (max-width: 900px){
   #portal-siteactions {
@@ -1075,4 +1012,69 @@ div#portal-searchbox {
     text-align: center;
     text-decoration: none;
     transition: color 300ms ease 0s;
+}
+@media (max-width: 798px){
+  ul#mobile_menu1 {
+    background: #2a6b81 !important;
+}
+  #portal-siteactions {
+    display: block;
+    float: right;
+    clear: none;
+    padding-bottom: 2px;
+    display: none;
+}
+#accessibility {
+    display: block !important;
+    float: left;
+    font-size: 0.8em;
+    display: none !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#portal-searchbox {
+    position: absolute;
+    right: 28px;
+    top: 20px;
+    display: none;
+}
+ #portal-title {
+    margin: 0;
+    margin: 36px 0 -6px;
+    color: #fff;
+    font-size: 3.35em;
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+#header {
+    background-image: radial-gradient(ellipse at center, #35839f 1%, #35839f 100%);
+    color: #fff;
+    height: 178px;
+}
+#logo-header-tema {
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+
+}
+@media (max-width: 500px){
+
+#social-icons {
+    display: none;
+}
+#portal-title {
+    margin: 0;
+    margin: 36px 0 -6px;
+    color: #fff;
+    font-size: 2.35em;
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+#portal-description {
+    bottom: 8px;
+    text-transform: nome;
+    font-size: 0.9em;
+    line-height: 17px;
+    margin-top: 11px;
+}
 }
