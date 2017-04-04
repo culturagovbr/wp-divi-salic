@@ -1023,3 +1023,11 @@ div#portal-searchbox {
     height: 178px;
 }
 }
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container {
+    position: relative;
+    z-index: 3;
+    width: 80%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
