@@ -958,7 +958,11 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 }
 
 
-
+.et_pb_module.et_pb_tabs.et_pb_tabs_0 {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 0 !important;
+}
 @media (max-width: 1000px){
   #portal-siteactions {
     display: block;
@@ -1016,6 +1020,12 @@ div#portal-searchbox {
     text-align: center;
     text-decoration: none;
     transition: color 300ms ease 0s;
+}
+
+.et_pb_image_0 {
+    max-width: 97px;
+    margin-top: -77px;
+    text-align: center;
 }
 @media (max-width: 798px){
   ul#mobile_menu1 {
@@ -1085,5 +1095,13 @@ div#portal-searchbox {
     font-size: 0.9em;
     line-height: 17px;
     margin-top: 11px;
+}
+.oqueadenovo h1 {
+    text-align: right;
+    margin-top: 20px;
+    position: absolute;
+    font-size: 21px;
+    margin-left: 13px;
+    top: 0;
 }
 }
