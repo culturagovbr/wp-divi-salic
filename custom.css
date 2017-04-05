@@ -1104,4 +1104,16 @@ div#portal-searchbox {
     margin-left: 13px;
     top: 0;
 }
+.oqueadenovo .lista-oqueadenovo li {
+    margin: 0;
+    width: 95%;
+    display: block;
+    float: none;
+    margin-top: 24px;
+    padding-top: 83px;
+}
+.oqueadenovo img {
+    float: right;
+    margin-bottom: 23px;
+}
 }
