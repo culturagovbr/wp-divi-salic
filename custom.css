@@ -1022,11 +1022,7 @@ div#portal-searchbox {
     transition: color 300ms ease 0s;
 }
 
-.et_pb_image_0 {
-    max-width: 97px;
-    margin-top: -77px;
-    text-align: center;
-}
+
 @media (max-width: 798px){
   ul#mobile_menu1 {
     background: #2a6b81 !important;
@@ -1116,5 +1112,8 @@ div#portal-searchbox {
     float: none;
     display: block;
     margin-top: 0;
+}
+.oqueeleirouanet {
+    padding: 23px;
 }
 }
