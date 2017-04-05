@@ -1116,4 +1116,7 @@ div#portal-searchbox {
 .oqueeleirouanet {
     padding: 23px;
 }
+footer#main-footer {
+    display: none;
+}
 }
