@@ -1138,3 +1138,6 @@ footer#main-footer {
 #main-content ul#menu-menu-principal li.current-menu-item a {
     color: #f6eb05 !important;
 }
+#menu-menu-rodape-3 {
+    display: none;
+}
