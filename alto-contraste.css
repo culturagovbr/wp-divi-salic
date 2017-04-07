@@ -212,3 +212,6 @@ color:#fff;
 .contraste .menu a {
     color: #000;
 }
+#main-content ul#menu-menu-principal {
+    background: none repeat scroll 0 0 #2a6b81 !important;
+}
