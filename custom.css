@@ -349,6 +349,12 @@ color: #FFFFFF;
        padding: 0px 0.3em 0 0.3em;
 }
 
+#footer-widgets > div {
+    margin: 2em auto;
+    max-width: 960px;
+    min-width: 246px;
+    padding-top: 1em;
+}
 
 #footer-widgets > div {
     margin: 2em auto;
