@@ -668,10 +668,10 @@ input.searchField { -moz-appearance: none; }
   background: #2a6b81 !important;
 }
 
-ul#menu-menu-principal {
+#main-content ul#menu-menu-principal {
   background: #2a6b81 !important;
 }
-ul#menu-menu-principal li a {
+#main-content ul#menu-menu-principal li a {
     color: #fff;
 }
 #accessibility span {
