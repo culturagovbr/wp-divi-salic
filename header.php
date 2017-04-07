@@ -39,13 +39,13 @@
 
         <ul id="accessibility">
             <li>
-                <a accesskey="1" href="#irparaomenu" id="link-conteudo">
+                <a accesskey="1" href="#div-conteudo" id="link-conteudo">
                     Ir para o conte&uacute;do
                     <span>1</span>
                 </a>
             </li>
             <li>
-                <a accesskey="2" href="#main-content" id="link-navegacao">
+                <a accesskey="2" href="#irparaomenu" id="link-navegacao">
                     Ir para o menu
                     <span>2</span>
                 </a>
