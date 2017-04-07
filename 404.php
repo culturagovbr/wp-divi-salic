@@ -8,8 +8,6 @@
 					<?php get_template_part( 'includes/no-results', '404' ); ?>
 				</article> <!-- .et_pb_post -->
 			</div> <!-- #left-area -->
-
-			<?php get_sidebar(); ?>
 		</div> <!-- #content-area -->
 	</div> <!-- .container -->
 </div> <!-- #main-content -->
