@@ -1136,5 +1136,5 @@ footer#main-footer {
     top: 50%;
 }
 #main-content ul#menu-menu-principal li.current-menu-item a {
-    color: #f6eb05;
+    color: #f6eb05 !important;
 }
