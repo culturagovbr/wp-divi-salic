@@ -41,20 +41,18 @@ jQuery.cookie = function (key, value, options) {
 
 jQuery(function() {
   
-  jQuery(".alto_contraste").click(function() {
+ jQuery(".alto_contraste").click(function () {
     var a = jQuery.cookie("contraste_site_class");
-    if (a == "contraste_on") {
-      jQuery.cookie("contraste_site_class", "contraste_off");
-      jQuery("body").removeClass(jQuery.cookie("contraste_site"));
-      jQuery(".alto_contraste").attr("class", jQuery.cookie("contraste_site_class"));
-      jQuery.cookie("contraste_site", "")
+    if (a === "contraste_on") {
+        jQuery.cookie("contraste_site_class", "contraste_off");
+
+        jQuery("body").removeClass('contraste');
     } else {
-      jQuery.cookie("contraste_site", "contraste");
-      jQuery.cookie("contraste_site_class", "contraste_on");
-      jQuery("body").addClass(jQuery.cookie("contraste_site"));
-      jQuery(".alto_contraste").attr("class", jQuery.cookie("contraste_site_class"))
+        jQuery.cookie("contraste_site_class", "contraste_on");
+        jQuery("body").addClass('contraste');
     }
-  });
-  jQuery("body").addClass(jQuery.cookie("contraste"));
-  jQuery(".alto_contraste").attr("class", jQuery.cookie("contraste_site_class"))
+});
+
+if (jQuery.cookie("contraste_site_class") === "contraste_on")
+    jQuery("body").addClass('contraste');
 });
