@@ -804,7 +804,7 @@ h4.widgettitle {
     border: none;
     padding: 0;
     background-image: none;
-    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/sprite.png);
+    background: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/sprite.png);
     background-color: #fff;
     margin-left: 11px;
     display: block;
@@ -905,7 +905,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 }
 
 #main-content #menu-menu-principal > li:last-child {
-  background-image: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
+  background-image: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
   background-repeat: no-repeat;
   background-position: 3px 2px;
   position: relative;
@@ -922,7 +922,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
   box-shadow: 1px 1px 1px #1d2c63;
 }
 #header input.searchButton {
-    background: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/search-icon.png) no-repeat 3px 2px #FFFFFF;
+    background: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/search-icon.png) no-repeat 3px 2px #FFFFFF;
 }
 #header > div {
     position: relative;
@@ -932,7 +932,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     max-width: 1060px;
 }
 #main-content #menu-menu-principal > li:last-child {
-    background-image: url(http://salic.base-wp.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
+    background-image: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
     background-repeat: no-repeat;
     background-position: 8px 8px;
     position: relative;
