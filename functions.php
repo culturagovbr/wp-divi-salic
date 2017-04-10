@@ -9,4 +9,7 @@ function divi_child_enqueue_styles() {
 
 add_action( 'wp_head', 'divi_child_enqueue_styles' );
 
+/**  * Inclui a funcionalidade do breadcrumb  */
+include ( get_stylesheet_directory() . '/includes/breadcrumb.php' );
+
 ?>
