@@ -1076,7 +1076,12 @@ div#portal-searchbox {
     clear: right;
     margin: -4.833em 0;
 }
-
+.et_pb_button_module_wrapper.et_pb_module.pull-right {
+    float: none;
+    margin-top: -106px;
+    float: none;
+    margin: 0;
+}
 }
 @media (max-width: 500px){
 
