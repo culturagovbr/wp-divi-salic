@@ -934,7 +934,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 .et_pb_column_3_4 .et_pb_row_inner {
     padding: 30px 0 0;
 }
-@media (min-width: 1800px) {
+@media (min-width: 1176px) {
 #main-content #menu-menu-principal > li:last-child {
     background-image: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
     background-repeat: no-repeat;
