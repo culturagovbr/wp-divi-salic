@@ -1073,11 +1073,18 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     transition: color 300ms ease 0s;
 }
 
-@media (max-width: 798px) {
-    ul#mobile_menu1 {
-        background: #2a6b81 !important;
+@media (max-width: 980px) {
+   ul#mobile_menu1 {
+    background: #2a6b81 !important;
+    width: 100%;
+    position: absolute;
     }
-
+    .oqueeleirouanet{
+        width: 100%;
+    }
+      ul#mobile_menu1 a{
+      color: #fff !important;
+    }
     #portal-siteactions {
         display: block;
         float: right;
