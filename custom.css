@@ -1,7 +1,6 @@
 #header {
     padding: 14px 0 0 0;
     background-color: #19882c;
-    height: 230px;
     /* Old browsers */
     background-color: #0A5517;
     background-image: -moz-radial-gradient(center, ellipse cover, #19882c 1%, #025310 100%);
@@ -964,23 +963,55 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     max-width: 1060px;
 }
 
-#main-content #menu-menu-principal > li:last-child {
+#header > div#menu-menu-principal{
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    background: #2a6b81;
+}
+
+#menu-menu-principal ul{
+    position: relative;
+    margin: auto;
+    max-width: 1060px;
+}
+
+#menu-menu-principal ul li{
+    display: inline-block;
+    padding: 26px 22px 26px 0;
+    font-size: 14px;
+}
+
+#menu-menu-principal ul li a{
+    color: #fff;
+}
+
+#menu-menu-principal ul li a:hover {
+    opacity: 0.7;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#menu-menu-principal ul li:last-child {
     background-image: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
     background-repeat: no-repeat;
     background-position: 8px 8px;
     position: relative;
-    padding-top: 14px;
+    padding-top: 0;
     padding-left: 41px;
     background-size: 27px;
     background-color: #35839f;
     padding-right: 7px;
     padding-bottom: 0px;
-    left: 4px;
-    height: 41px;
     border-radius: 4px;
-    top: -10px;
     float: right;
     box-shadow: 1px 1px 1px #1d2c63;
+    margin-top: 18px;
+}
+
+#menu-menu-principal ul li:last-child a{
+    line-height: 41px;
 }
 
 #footer-widgets .footer-widget li {
