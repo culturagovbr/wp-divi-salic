@@ -141,6 +141,8 @@
 
         </div>
 
+    <?php // wp_nav_menu( array( 'theme_location' => 'primary-menu', 'menu_id' => 'menu-menu-principal' ) ); ?>
+
 </div>
 
 <?php the_breadcrumbs(); ?>
