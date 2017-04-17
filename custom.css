@@ -1235,3 +1235,8 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 #main-content .container {
     padding-top: 18px;
 }
+
+/*Ocultado descrição do site*/
+div#portal-description {
+    display: none;
+}
