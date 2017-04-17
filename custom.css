@@ -1238,5 +1238,6 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 
 /*Ocultado descrição do site*/
 div#portal-description {
-    display: none;
+    display: block;
+    opacity: 0;
 }
