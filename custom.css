@@ -935,25 +935,25 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     padding: 30px 0 0;
 }
 @media (min-width: 1176px) {
-#main-content #menu-menu-principal > li:last-child {
-    background-image: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
-    background-repeat: no-repeat;
-    background-position: 3px 2px;
-    position: relative;
-    padding-top: 14px;
-    padding-left: 53px;
-    background-color: #35839f;
-    padding-right: 7px;
-    padding-bottom: 0px;
-    left: 180px !important;
-    height: 41px;
-    border-radius: 4px;
-    top: -10px;
-    float: right;
-    box-shadow: 1px 1px 1px #1d2c63;
-}
+    #main-content #menu-menu-principal > li:last-child {
+        background-image: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
+        background-repeat: no-repeat;
+        background-position: 3px 2px;
+        position: relative;
+        padding-top: 14px;
+        padding-left: 53px;
+        background-color: #35839f;
+        padding-right: 7px;
+        padding-bottom: 0px;
+        left: 180px !important;
+        height: 41px;
+        border-radius: 4px;
+        top: -10px;
+        float: right;
+        box-shadow: 1px 1px 1px #1d2c63;
+    }
 
-    #main-content #menu-menu-principal > li:nth-child(7) {
+    #main-content #menu-menu-principal > li:nth-child(8) {
         background-image: none;
         background-repeat: no-repeat;
         background-position: 8px 8px;
