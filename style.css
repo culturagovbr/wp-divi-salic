@@ -6197,11 +6197,10 @@ p.et_pb_gallery_caption {
 
 /* Shared Fullwidth Menu Styles */
 .fullwidth-menu li {
-	display: inline-block;
-	padding-right: 22px;
-	font-size: 14px;
+    display: inline-block;
+    padding-right: 11px;
+    font-size: 14px;
 }
-
 .fullwidth-menu > li:last-child {
 	padding-right: 0;
 }
