@@ -87,9 +87,9 @@
         </ul>
 
         <div id="logo-header-tema">
-            <a href="<?php echo home_url(); ?>" title="Lei de Incentivo à Cultura ">
+            <a href="<?php echo home_url(); ?>" title="Lei Federal de Incentivo à Cultura">
                 <div id="portal-title">Lei Rouanet </div>
-                <div id="portal-description" style="color:#FFF">Lei de Incentivo à Cultura </div>
+                <div id="portal-description" style="color:#FFF">Lei Federal de Incentivo à Cultura </div>
             </a>
 
         </div>
