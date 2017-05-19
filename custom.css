@@ -1237,3 +1237,8 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 }
 
 /**/
+.fullwidth-menu li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 14px;
+}
