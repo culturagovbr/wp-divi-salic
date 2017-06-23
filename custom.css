@@ -936,6 +936,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 }
 ul.sub-menu {
     background: rgb(42, 107, 129) !important;
+    max-width: 200px;
 }
 li#menu-item-1602 {
     background: url(http://rouanet.cultura.gov.br/wp-content/themes/wp-divi-salic/img/lupa.png);
