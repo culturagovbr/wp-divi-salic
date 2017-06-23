@@ -938,22 +938,23 @@ ul.sub-menu {
     background: rgb(42, 107, 129) !important;
     max-width: 200px;
 }
-li#menu-item-1602 {
+
+@media (min-width: 1176px) {
+    li#menu-item-1602 {
     background: url(http://rouanet.cultura.gov.br/wp-content/themes/wp-divi-salic/img/lupa.png);
     background-repeat: no-repeat;
     background-position: 0 center;
-}
-li#menu-item-1603 {
-    background: url(http://rouanet.cultura.gov.br/wp-content/themes/wp-divi-salic/img/grafico.png);
-    background-repeat: no-repeat;
-    background-position: 0 center;
-}
-li#menu-item-1604 {
-    background: url(http://rouanet.cultura.gov.br/wp-content/themes/wp-divi-salic/img/game.png);
-    background-repeat: no-repeat;
-    background-position: 0 center;
-}
-@media (min-width: 1176px) {
+    }
+    li#menu-item-1603 {
+        background: url(http://rouanet.cultura.gov.br/wp-content/themes/wp-divi-salic/img/grafico.png);
+        background-repeat: no-repeat;
+        background-position: 0 center;
+    }
+    li#menu-item-1604 {
+        background: url(http://rouanet.cultura.gov.br/wp-content/themes/wp-divi-salic/img/game.png);
+        background-repeat: no-repeat;
+        background-position: 0 center;
+    }
     #main-content #menu-menu-principal > li:last-child {
         background-image: url(http://rouanet.cultura.gov.br/wp-content/uploads/sites/2/2017/03/icone-salic.png);
         background-repeat: no-repeat;
